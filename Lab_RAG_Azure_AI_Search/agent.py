@@ -10,6 +10,9 @@ project_connection_string = os.getenv("PROJECT_CONNECTION_STRING")
 model = os.getenv("MODEL_DEPLOYMENT_NAME")
 index_name=os.getenv("AI_SEARCH_INDEX_NAME")
 
+print(f"Using index name: {index_name}")
+
+
 project_client = AIProjectClient.from_connection_string(
     credential=DefaultAzureCredential(),
     conn_str=project_connection_string,

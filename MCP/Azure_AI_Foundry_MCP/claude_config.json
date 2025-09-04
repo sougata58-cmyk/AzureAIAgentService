@@ -3,11 +3,11 @@
         "Azure AI Agent(s) Server": {
             "command": "python",
             "args": [
-                "/ABSOLUTE/PATH/TO/PARENT/FOLDER/AAI_server.py",
+                "C:\\Users\\souga\\OneDrive\\Documents\\Azure-Agent\\AzureAIAgentService\\MCP\\Azure_AI_Foundry_MCP\\AAI_server.py",
                 "AAI_server.py"
             ],
             "env":{
-                "PROJECT_CONNECTION_STRING": "YOUR_PROJECT_CONNECTION_STRING"
+                "PROJECT_CONNECTION_STRING": "https://eastus2.api.azureml.ms;e303a69b-f220-45a5-84a9-53efce0cee4d;rg-azure-learn;sougataazurefoundry-project"
             }
         }
     }
